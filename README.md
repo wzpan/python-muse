@@ -7,6 +7,11 @@ This is a toy example to demostrate how to interact with Muse Headband in Python
 - A Muse Headband. Currently works with the 2014 Muse Model MU-01, the 2016 Muse Model MU-02 and the 2018 "Muse 2" Model MU-03.
 - An iPhone or an Android Phone.
 - [Muse Monitor](https://musemonitor.com/). Install it on the phone that connects to your muse headband.
+- Install the following python dependencies:
+
+``` bash
+pip install -r requirements.txt
+```
 
 ## how to use
 
