@@ -118,7 +118,7 @@ if __name__ == "__main__":
     dispatcher.map("/muse/elements/gamma_absolute", gamma_handler, "EEG")
     dispatcher.map("/muse/elements/blink", blink_handler, "EEG")
     dispatcher.map("/muse/elements/jaw_clench", jaw_clench_handler, "EEG")
-    dispatcher.map("/muse/algorithm/mellow", mellow_handler, "EEG")    
+    dispatcher.map("/muse/algorithm/concentration", concen_handler, "EEG")    
 
     server = osc_server.ThreadingOSCUDPServer(
         (args.ip, args.port), dispatcher)
