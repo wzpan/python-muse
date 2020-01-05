@@ -21,7 +21,7 @@ pip install -r requirements.txt
 4. On your PC, run:
 
 ``` bash
-python demo.py --ip YOUR_PHONE_IP --port 5000
+python demo.py --ip YOUR_PC_IP --port 5000
 ```
 
 Hopefully it works! Now try to blink your eyes and see whether you see `blink` in the screen.
