@@ -5,8 +5,8 @@ This is a toy example to demostrate how to interact with Muse Headband in Python
 ## requirements
 
 - A Muse Headband. Currently works with the 2014 Muse Model MU-01, the 2016 Muse Model MU-02 and the 2018 "Muse 2" Model MU-03.
-- An iPhone.
-- [Muse Monitor](https://musemonitor.com/). Install it on the phone that connects to your muse headband.
+- An iPhone or Android.
+- [Mind Monitor](https://mind-monitor.com/). Install it on the phone that connects to your muse headband.
 - Install the following python dependencies:
 
 ``` bash
@@ -26,4 +26,4 @@ python demo.py --ip YOUR_PC_IP --port 5000
 
 Hopefully it works! Now try to blink your eyes and see whether you see `blink` in the screen.
 
-For more details, please refer to [FAQ of Muse Monitor](https://musemonitor.com/FAQ.php#Compatibility).
+For more details, please refer to [FAQ of Mind Monitor](https://mind-monitor.com/FAQ.php#Compatibility).
